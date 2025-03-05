@@ -1,82 +1,78 @@
 # Collector
 
-## Project Overview
-This is a modern file management system developed using Svelte, providing an intuitive interface for browsing and managing files. The system supports folder hierarchy display, file search, dynamic folder open/close animations, and multiple view switching features.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Key Features
-- 📁 Folder Browsing
-  - Supports folder hierarchy display
-  - Dynamic folder open/close animations
-  - Folder hover effects
-  - Path navigation functionality
+Collector 是一个个人网站收藏管理系统，帮助您高效管理和分类喜爱的网站。
 
-- 🔍 File Search
-  - Supports global search functionality
-  - Keyword highlighting in search results
-  - Real-time search result updates
-  - Supports search shortcut (/)
+## 功能特性
 
-- 📄 File Operations
-  - File preview
-  - File list view
-  - File grid view switching
-  - File description display
+- 📁 网站分类管理
+- 🔍 快速搜索
+- 🌐 多语言支持 (英文/中文)
+- 🎨 主题切换
+- 📱 响应式设计
 
-- 🎯 User Interaction
-  - Responsive layout design
-  - Smooth animation transitions
-  - Intuitive operation interface
-  - Supports dark mode toggle
+## 技术栈
 
-## Technology Stack
-- Frontend Framework: Svelte
-- Styling Framework: Tailwind CSS
-- Icons: Iconify
-- Build Tool: Vite
-- Search Functionality: Fuse.js
+- **前端框架**: [Svelte](https://svelte.dev) v5 + [SvelteKit](https://kit.svelte.dev) v2
+- **构建工具**: [Vite](https://vitejs.dev) v6
+- **UI库**: [DaisyUI](https://daisyui.com) v4 + [TailwindCSS](https://tailwindcss.com) v3
+- **图标库**: [Iconify](https://iconify.design)
+- **搜索**: [Fuse.js](https://fusejs.io)
+- **国际化**: [Paraglide](https://inlang.com)
+- **代码质量**: ESLint + Prettier
 
-## Development Guide
+## 开发环境准备
 
-### Environment Requirements
-- Node.js >= 16.0.0
-- npm >= 7.0.0
-
-### Install Dependencies
+1. 确认已安装 [Node.js](https://nodejs.org) (≥18.x)
+2. 安装 pnpm:
 ```bash
-npm install
+npm install -g pnpm
+```
+3. 克隆项目:
+```bash
+git clone https://github.com/your-username/collector.git
+```
+4. 安装依赖:
+```bash
+pnpm install 
+```
+5. 启动开发服务器:
+```bash
+pnpm run dev
 ```
 
-### Development Server
-```bash
-npm run dev
+## 项目结构
+
+```
+collector/
+├── src/               # 源代码
+│   ├── lib/           # 共享工具和组件
+│   ├── routes/        # 页面路由
+│   └── app.css        # 全局样式
+├── static/            # 静态资源
+├── messages/          # 国际化文件
+├── package.json       # 项目依赖
+├── vite.config.js     # Vite 配置
+└── tailwind.config.js # Tailwind 配置
 ```
 
-## Usage Instructions
+## 构建与部署
 
-### File Browsing
-- Click on folders to navigate
-- Hover over folders to see animation effects
-- Supports folder hierarchy display
-- Use path navigation to quickly locate files
+生产环境构建：
+```bash
+pnpm run build
+```
 
-### Search Functionality
-- Enter keywords for global search
-- Use the `/` shortcut to quickly focus on the search box
-- Search results are displayed in real-time with keyword highlighting
+本地预览：
+```bash
+pnpm run preview
+```
 
-### View Switching
-- List View: Suitable for detailed information display
-- Grid View: Suitable for thumbnail previews
+## 贡献指南
 
-### Dark Mode
-- Click the icon in the top-right corner to toggle dark mode
+我们欢迎各种形式的贡献！请先阅读 [贡献指南](CONTRIBUTING.md)。
 
-## Contribution Guide
-1. Fork this repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Submit a Pull Request
+## 许可证
 
-## Acknowledgments
-Thanks to all the developers who contributed to this project.
+本项目采用 [MIT 许可证](LICENSE)。
