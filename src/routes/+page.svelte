@@ -205,7 +205,7 @@
 					<span class="swap-on icon-[iconamoon--close-light] fill-current" style="width: 32px; height: 32px;"></span>
 				</label>
 				<a href="#" class="group ms-2 flex md:me-24">
-					<img src="/favicon.svg" class="me-3 h-10" alt="FlowBite Logo" />
+					<img src="./favicon.svg" class="me-3 h-10" alt="Collector Logo" />
 					<span class="text-md hidden self-center font-semibold sm:block">Collector</span>
 				</a>
 			</div>
