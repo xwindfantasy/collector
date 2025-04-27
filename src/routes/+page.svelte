@@ -184,10 +184,10 @@
 </script>
 
 <svelte:head>
-    <title>Collector</title>
+	<title>Collector</title>
 </svelte:head>
 
-<nav class="fixed top-0 z-50 w-full border-b border-base-300 bg-base-100 shadow-sm">
+<nav class="fixed top-0 z-50 w-full border-b border-base-300 bg-base-100/90 shadow-sm">
 	<div class="px-3 py-3 lg:px-5 lg:pl-3">
 		<div class="flex items-center justify-between">
 			<div class="flex items-center justify-start rtl:justify-end">
@@ -205,7 +205,7 @@
 					<span class="swap-on icon-[iconamoon--close-light] fill-current" style="width: 32px; height: 32px;"></span>
 				</label>
 				<a href="#" class="group ms-2 flex md:me-24">
-					<img src="./favicon.svg" class="me-3 h-10" alt="Collector Logo" />
+					<img src="./favicon.svg" class="me-2 w-20 sm:w-8" alt="Collector Logo" />
 					<span class="text-md hidden self-center font-semibold sm:block">Collector</span>
 				</a>
 			</div>
@@ -233,6 +233,11 @@
 						<!-- moon icon -->
 						<span class="swap-on icon-[solar--moon-bold-duotone]" style="width: 32px; height: 32px;"></span>
 					</label>
+				</div>
+				<div>
+					<a href="https://github.com/wefantasy/collector" target="_blank" aria-label="github" class="ms-3 flex items-center">
+						<span class="icon-[octicon--mark-github-24]" style="width: 30px; height: 30px;"></span>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -360,6 +365,13 @@
 					</div>
 				{/if}
 			{/each}
+		</div>
+	</div>
+
+	<div class="mt-4 rounded-lg">
+		<div class="text-center">
+			© 2025 <a href="https://github.com/wefantasy/collector" target="_blank" aria-label="github" class="link-hover link link-primary">collector</a>, Design by
+			<a href="https://github.com/wefantasy" target="_blank" aria-label="github" class="link-hover link link-primary">wefantasy</a>
 		</div>
 	</div>
 </div>

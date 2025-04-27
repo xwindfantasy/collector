@@ -32,7 +32,6 @@
 	"dependencies": {
 		"@iconify/json": "^2.2.299",
 		"@iconify/tailwind": "^1.2.0",
-		"@inlang/paraglide-sveltekit": "^0.15.5",
 		"fuse.js": "^7.0.0",
 		"theme-change": "^2.5.0"
 	}
