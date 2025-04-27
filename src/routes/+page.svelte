@@ -2,6 +2,7 @@
 	import Fuse from 'fuse.js';
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
+	import BackTop from '$lib/components/BackTop.svelte';
 
 	let { data } = $props();
 
@@ -367,6 +368,8 @@
 			{/each}
 		</div>
 	</div>
+
+	<BackTop />
 
 	<div class="mt-4 rounded-lg">
 		<div class="text-center">
