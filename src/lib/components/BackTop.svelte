@@ -10,7 +10,6 @@
 			element = document.querySelector('html');
 			document.addEventListener('scroll', () => {
 				element.scrollTop >= 300 ? (isShow = true) : (isShow = false);
-				console.log(element.scrollTop);
 			});
 		}
 	});

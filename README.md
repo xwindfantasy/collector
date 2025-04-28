@@ -2,12 +2,12 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Collector 是一个简约个人导航站点，帮助您高效管理和分类喜爱的网站。
+Collector 是一个简约个人导航站点，帮助您高效管理和分类收藏的网站。
 
 ## 功能特性
 
 - 📁 网站多级分类管理
-- 🔍 标题、描述快速全文检索
+- 🔍 标题、描述模糊检索
 - 🎨 主题切换
 - 📱 响应式设计
 - ⚙️ 自定义配置
@@ -65,18 +65,6 @@ collector/
 ├── package.json       # 项目依赖
 ├── vite.config.js     # Vite 配置
 └── tailwind.config.js # Tailwind 配置
-```
-
-## 构建与部署
-
-生产环境构建：
-```bash
-pnpm run build
-```
-
-本地预览：
-```bash
-pnpm run dev
 ```
 
 ## 贡献指南
