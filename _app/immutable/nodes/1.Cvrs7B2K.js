@@ -1,7 +1,7 @@
 import { t as template, b as append } from "../chunks/BDSO5bsW.js";
 import { V as component_context, _ as user_pre_effect, $ as user_effect, a0 as run_all, y as untrack, a1 as run, g as get, a2 as deep_read_state, a3 as derived, a4 as enable_legacy_mode_flag, T as push, a5 as first_child, a6 as template_effect, W as pop, a7 as child, a8 as reset, a9 as sibling } from "../chunks/CgSONPxW.js";
 import { s as set_text } from "../chunks/BqqE4uZX.js";
-import { s as stores, p as page$2 } from "../chunks/BL2k8oel.js";
+import { s as stores, p as page$2 } from "../chunks/D9l2Dzes.js";
 function init(immutable = false) {
   const context = (
     /** @type {ComponentContextLegacy} */
