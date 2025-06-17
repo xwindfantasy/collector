@@ -8,5 +8,8 @@ export default defineConfig({
 	},
 	plugins: [
 		sveltekit()
-	]
+	],
+	build: {
+		minify: false
+	}
 });
