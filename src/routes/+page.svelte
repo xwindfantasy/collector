@@ -175,10 +175,12 @@
 	}
 
 	function handleFolderClick(folderPath) {
+console.log(folderPath);
 		selectedFolder = folderPath ? folderPath.split('%') : [];
 		searchResults = [];
 		searchTerm = '';
 		isAsideVisible = false;
+console.log(selectedFolder);
 	}
 
 	let isAsideVisible = $state(false);
