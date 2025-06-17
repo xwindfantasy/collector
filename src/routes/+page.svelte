@@ -51,6 +51,9 @@
 		if (browser) {
 			document.addEventListener('keydown', handleKeyPress);
 		}
+		searchResults = [];
+		    selectedFolder = [];
+		    searchTerm = '';
 	});
 
 	onDestroy(() => {
